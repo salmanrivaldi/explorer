@@ -1,0 +1,1 @@
+entrypoint = "apps/backend/main.ts"

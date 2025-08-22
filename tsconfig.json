@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "baseUrl": ".",
+    "strict": true,
+    "esModuleInterop": true,
+    "paths": {
+      "@db/*": ["packages/db/*"],
+      "@backend/*": ["apps/backend/*"],
+      "@frontend/*": ["apps/frontend/*"]
+    },
+    "types": ["bun-types"]
+  },
+  "include": ["apps", "packages"]
+}
